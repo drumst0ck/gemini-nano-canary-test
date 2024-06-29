@@ -18,6 +18,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-row gap-7 items-center justify-between p-24 container">
       <div className="flex flex-col w-full">
+        <span className="text-gray-300 text-xs">by drumst0ck</span>
         <div className="flex flex-row gap-7 w-full">
           <div className="flex flex-col w-1/2">
             <input
