@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gemini Nano Test on Chrome Canary
+
+This repository contains a test implementation of Gemini Nano, designed to work with the latest version of Chrome Canary (128.0.6568.0). The application is built using Next.js and works locally without the need for an internet connection.
+
+## Requirements
+
+- [Next.js](https://nextjs.org/) (version 10 or later)
+- [Chrome Canary](https://www.google.com/chrome/canary/) (version 128.0.6568.0)
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/your-username/gemini-nano-test.git
+    cd gemini-nano-test
+    ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Install dependencies**:
+    ```sh
+    npm install
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Run the development server**:
+    ```sh
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Local Functionality**: The application runs entirely locally and does not require an internet connection.
+- **Next.js Framework**: Built using the Next.js framework for a seamless development experience.
+- **Chrome Canary Compatibility**: Specifically designed to work with Chrome Canary version 128.0.6568.0.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. **Enter a prompt**: Type your prompt into the input field.
+2. **Send the prompt**: Click the "Enviar" button to send the prompt.
+3. **View the response**: The response from Gemini Nano will be displayed in the designated area.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Acknowledgements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Created by drumst0ck
+- Powered by [Next.js](https://nextjs.org/)
+- Tested on [Chrome Canary](https://www.google.com/chrome/canary/)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
